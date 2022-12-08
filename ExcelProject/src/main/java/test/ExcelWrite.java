@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelWrite {
 //My excel project used in Github
-	//sample comment
+	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		@SuppressWarnings("resource")
