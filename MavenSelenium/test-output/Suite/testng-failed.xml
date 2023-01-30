@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testng.DropTest">
+        <methods>
+          <include name="drop"/>
+          <include name="drop1"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testng.DropTest -->
+      <class name="testng.RadioCheckTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="radiobutton"/>
+        </methods>
+      </class> <!-- testng.RadioCheckTest -->
+      <class name="testng.ClickTest">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testng.ClickTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
